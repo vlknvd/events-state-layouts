@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.store, .store-body {
+  width: 100%;
+}
+
+.store-body {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.product-title, .product-title-list {
+  font-size: 24px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.product-price, .product-button, .product-price-list, .button-list {
+  font-size: 18px;
+  color: #d81818;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.product-color, .product-color-list {
+  font-size: 16px;
+}
+
+.product-button, .button-list {
+  background-color: inherit;
+  border: 1px solid #d81818;
+  border-radius: 30px;
+}
+
+.store-header-menu {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.icon-switch {
+  font-size: 35px;
+  background-color: inherit;
+}
